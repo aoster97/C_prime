@@ -15,7 +15,7 @@ foreach (file ${files})
     # 输出文件名
     message(${file})
     # 将去掉后缀的文件名存入exe变量（executable的缩写，不是代表.exe）
-     string(REGEX REPLACE "(.+).cpp$" "\\1" exe ${file})
+     string(REGEX REPLACE "(.+).c$" "\\1" exe ${file})
 
     # 分别生成add_executable(<name> <source>)命令
     add_executable (${exe} ${file})

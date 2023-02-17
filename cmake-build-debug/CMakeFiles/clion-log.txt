@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/prom/C_prime
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.19 or higher is required.  You are running version 3.17.5
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Volumes/prom/C_prime/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Volumes/prom/C_prime/cmake-build-debug/CMakeFiles/CMakeError.log".

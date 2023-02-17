@@ -1,0 +1,3 @@
+# Project exclude paths
+/cmake-build-debug-system/
+/cmake-build-debug-system-1/
